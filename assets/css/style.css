@@ -46,7 +46,7 @@ html {
     line-height: 46px; /*Căn giữa (trên dưới) chữ trong navigation*/
     padding: 0 24px; /*Căn giữa (trái phải) chữ trong navigation*/
     display: inline-block; /*Thẻ a mặc định là inline nên không set dc with-height*/
-    
+
 }
 
 #nav li:hover a { /*Con của thẻ li dc hover*/
@@ -55,7 +55,7 @@ html {
 }
 
 #nav .subnav {
-    display: none;
+    display: none; /*Tạm ẩn sub nav*/
 }
 
 #slider {
