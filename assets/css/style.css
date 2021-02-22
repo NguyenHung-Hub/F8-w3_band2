@@ -4,3 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+    Thứ tự làm:
+    1.Từ ngoài vào trong
+    2. Từ trên xuống dưới
+    3.Tổng quan đến chi tiết
+*/
+
+/* 
+    1.Vị trí
+    2.Kích thước (with, height)
+    3.Màu sắc
+    4.Hình dạng, kiểu dáng
+*/
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
