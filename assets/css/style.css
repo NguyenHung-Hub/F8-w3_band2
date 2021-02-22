@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* 
     Thứ tự làm:
     1.Từ ngoài vào trong
@@ -26,6 +30,32 @@
 #header {
     height: 46px;
     background-color: #000;
+}
+
+#nav {
+
+}
+
+#nav li {
+    display: inline-block; 
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none; /*Bỏ dấu gạch chân*/
+    line-height: 46px; /*Căn giữa (trên dưới) chữ trong navigation*/
+    padding: 0 24px; /*Căn giữa (trái phải) chữ trong navigation*/
+    display: inline-block; /*Thẻ a mặc định là inline nên không set dc with-height*/
+    
+}
+
+#nav li:hover a { /*Con của thẻ li dc hover*/
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+    display: none;
 }
 
 #slider {
